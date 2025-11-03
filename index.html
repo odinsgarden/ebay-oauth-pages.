@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script 
+    src="https://www.paypal.com/sdk/js?client-id=BAAPhmcbWDDd1IWMbz3Al2ZUCwjih0LnThf_PefciwKIVXa-ObOooBlJvZx3EBszVEGTZLglRUjkHBXgMk&components=hosted-buttons&enable-funding=venmo&currency=USD">
+  </script>
   <meta charset="UTF-8">
   <title>Thor's One | Valhalla Supplements</title>
   <style>
@@ -23,23 +26,20 @@
   <header>
     <h1>THOR'S ONE</h1>
     <p>“Many are called but few are chosen.”</p>
-    <img src="thors-one-product.jpeg" alt="Thor's One Supplement"
-     style="max-width:300px; margin-top:20px; border-radius:10px; box-shadow:0 0 20px rgba(0,0,0,0.7);">
-    <img src="thors-one-product-1.jpeg" alt="Thor's One Supplement"
-     style="max-width:300px; margin-top:20px; border-radius:10px; box-shadow:0 0 20px rgba(0,0,0,0.7);">
+    <img src="thors-one-product.jpeg" alt="Thor's One Supplement">
+    <img src="thors-one-product-1.jpeg" alt="Thor's One Supplement">
   </header>
+
   <div style="width:100%; overflow:hidden; margin-top:-40px;">
-  <img src="valhalla-banner.jpg" alt="Valhalla Innovations Product Line"
-       style="width:100%; height:auto; display:block;">
-</div>
-<div style="width:100%; overflow:hidden; margin-top:-40px;">
-  <img src="valhalla-banner.jpeg" alt="Valhalla Innovations Product Line"
-       style="width:100%; height:auto; display:block;">
-</div>
+    <img src="valhalla-banner.jpg" alt="Valhalla Innovations Product Line" style="width:100%; height:auto; display:block;">
+  </div>
+  <div style="width:100%; overflow:hidden; margin-top:-40px;">
+    <img src="valhalla-banner.jpeg" alt="Valhalla Innovations Product Line" style="width:100%; height:auto; display:block;">
+  </div>
+
   <section>
     <h2>About Thor’s One</h2>
-    <p>Unleash the power of the gods with Thor’s One — our premier all‑in‑one performance blend. 
-       Designed by Valhalla Supplements, it’s crafted to fuel your inner warrior and elevate your workout to legendary status.</p>
+    <p>Unleash the power of the gods with Thor’s One — our premier all‑in‑one performance blend. Designed by Valhalla Supplements, it’s crafted to fuel your inner warrior and elevate your workout to legendary status.</p>
   </section>
 
   <section>
@@ -96,6 +96,16 @@
     <a href="https://yourstore.com/thors-one" target="_blank">
       <button>Order Now</button>
     </a>
+    <a href="https://supzorts.com/thors-ointment" target="_blank">
+      <button>Order Now Valhalla Supplements | Thor's Ointment</button>
+    </a>
+
+    <div id="paypal-container-GZJADB866N5ZC"></div>
+    <script>
+      paypal.HostedButtons({
+        hostedButtonId: "GZJADB866N5ZC",
+      }).render("#paypal-container-GZJADB866N5ZC")
+    </script>
   </section>
 
   <footer>
